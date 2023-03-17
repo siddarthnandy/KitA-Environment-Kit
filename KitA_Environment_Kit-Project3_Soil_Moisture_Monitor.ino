@@ -16,6 +16,6 @@ void loop() {
   soilMoisture = analogRead(sensorPin);
   lcd.print("Moisture: ");
   lcd.print(soilMoisture);
-  lcd.println("%");
+  lcd.print("%");
   delay(1000);
 }
